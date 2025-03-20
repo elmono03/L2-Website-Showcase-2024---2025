@@ -1,0 +1,170 @@
+
+
+.menu-header {
+    background-image: url("img/my-background.jpg");
+    height: 500px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	
+    }
+
+.container-text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+    font-size: xxx-large;
+    text-shadow: 2px 2px black;
+	border-radius: 10px;
+    }
+.logo-pic-top-menu{
+    width: 9%;
+	
+    }
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 5px;
+    background-color:navy; /* colour is from the main pic background */
+    opacity: 0.85;
+	border-radius: 10px;
+    }
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    }
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    }
+nav ul li a:hover{
+    color: orange;
+    transition: .3s;
+    text-decoration: underline;
+    }
+	
+	button{
+    border: none;
+    background-color: red; lightcoral;
+    padding: 12px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    }
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: coral;
+    }
+	
+	.re-form{
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    }
+.re-form h3{
+    text-align: center;
+    font-size: x-large;
+    color: grey;
+}
+
+input, textarea, select{
+    width: 95%;
+    padding: 5px;
+    border: 1px solid coral;
+    border-radius: 5px;
+    }
+label{
+    display: block;
+    padding: 5px 0;
+    color: grey;
+}
+	.food-items{
+    display: flex;
+    width: auto;
+    margin: 0 15px;
+    }
+
+.food{
+    /*background-color: white;*/
+    flex-basis: 800px;
+    margin: 5px; 
+    border: 1px solid lightgrey;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5%;
+    }
+
+.food:hover{
+    border: 1px solid lightcoral;
+    }
+.food a{
+    color: black;
+}
+.food a:hover{
+    text-decoration: underline;
+    color: coral;
+    }
+.food img{
+    border-radius: 5%;
+	width:100%;
+    }
+.food h3, p{
+    text-align: center;
+    }
+
+.sect-title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 100px 0 20px 0;
+}
+img{
+ width:40%;
+ 
+
+ }
+
+p{
+	font-weight: bold;
+}
+h1{
+	text-align:center;
+	 margin: 40px;
+}
+iframe{
+	 
+
+    margin: 30px;
+}
+/* Footer */
+footer {
+    background-color:navy; /* Change footer background color */
+    color: white; /* Change footer text color */
+    text-align: center; /* Aligns text in the footer */
+    padding: 20px 0; /* Adjusts the top and bottom spacing of the footer */
+    position: relative; /* Ensures the footer remains part of the flow */
+    width: 100%; /* nsures the footer spans the full width */
+}
+footer a {
+    color:black;
+    margin: 0 16px;
+    text-decoration: none;
+	font-size:20px;
+	border-style:groove;
+	border-width:5px;
+	border-radius:20px;
+	background-color:silver;
+	padding:5px;
+	border-color:SpringGreen;
+}
