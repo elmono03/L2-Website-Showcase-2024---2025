@@ -1,0 +1,154 @@
+
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color:black;
+}
+
+img{
+	width: 200px;
+	height: 250px;
+	margin:16px;
+	
+}
+
+div#eren img{
+	height: 300px;
+	width: 350px;
+	margin-left:350px;
+}
+
+div#naruto img{
+	height: 300px;
+	width: 350px;
+	margin-left:350px;
+}
+div#luffy img{
+	height: 300px;
+	width: 350px;
+	margin-left:350px;
+}
+
+.posters img{
+	
+}
+	
+	
+	
+	
+	
+nav{
+	
+	background-color:Crimson;
+	color:white;
+	padding: 20px;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+	
+}
+
+nav ul li{
+	margin: 0 16px
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none;
+
+}
+form {
+    background-color: Gray; 
+    padding: 32px; 
+    margin: 32px; 
+    max-width: 400px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+form label {
+    display: block; 
+    margin: 16px 0 8px;
+}
+
+form button:hover {
+    background-color: red;
+}
+
+div{
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+		
+}
+
+
+
+
+
+/*Text*/
+
+h1{
+	color:white;
+	text-align:center;
+	
+}
+
+	
+.animepic img{
+	width: 800px;
+	height: 400px;
+	
+	
+}
+
+
+
+h4{
+	color:white;
+	font-family: 'Bowlby One SC', cursive;
+	text-align:center;
+p{
+	color:white;
+	font-family: 'Bowlby One SC', cursive;
+	width: 320px;
+	height: 320px;
+}
+/*---------*/
+
+.pic-foot a {
+	
+    background-color: crimson; 
+    color: white; 
+    
+}
+
+.site{
+	min-height: 100dvh;
+	display: grid;
+	grid-template-columns:minmax(0,1fr)
+}
+
+.pic-foot{
+	width: 10px;
+	padding: 10px;
+	
+}
+
+footer img{
+	width: 1px;
+
+}
+
+.footer img{
+	width: 25px;
+	
+	
+}
+
