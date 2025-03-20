@@ -1,0 +1,96 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a, form, input, textarea, button {
+    margin: 0; /* Default spacing for all elements */
+    padding: 0; /* Default padding for all elements */
+    box-sizing: border-box; /* Ensure padding doesn't affect element size */
+}
+
+/* Body and Page Layout */
+body {
+    font-family: Arial, sans-serif; /* Change font family here */
+    background-color: black; /* Change background color for the page */
+    color: white; /* Change default text color */
+    display: flex; /* Set flexbox layout for the page */
+    flex-direction: column; /* Stack header, main, and footer vertically */
+    min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+}
+img{margin:60px;}
+
+/* Main Content */
+main {
+    flex: 1; /* Allow main content to expand and take up remaining space */
+    padding: 20px; /* Adjust the space inside the main content area */
+}
+
+/* Header */
+header {
+    background-color: black; /* Change the header background color */
+    color: white; /* Change the header text color */
+    padding: 20px; /* Adjust the space around the header content */
+}
+
+header nav ul {
+    display: flex; /* Keeps navigation links horizontal */
+    justify-content: center; /* Centers the navigation menu */
+    list-style: none; /* Removes bullet points */
+    gap: 40px; /* Adjust spacing between navigation links */
+}
+
+header nav ul li a {
+    color: white; /* Change link text color */
+    font-weight: bold; /* Change font weight */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px; /* Adjust padding inside link area */
+    transition: background-color 0.3s; /* Smooth hover effect timing */
+}
+
+header nav ul li a:hover {
+    background-color: navy; /* Change hover background color */
+    border-radius: 5px; /* Adjust corner rounding on hover */
+}
+
+/* Footer */
+footer {
+    background-color: black; /* Change footer background color */
+    color: white; /* Change footer text color */
+    text-align: center; /* Aligns text in the footer */
+    padding: 20px 0; /* Adjusts the top and bottom spacing of the footer */
+    position: relative; /* Ensures the footer remains part of the flow */
+    width: 100%; /* Ensures the footer spans the full width */
+}
+
+/* Gallery */
+.gallery img {
+    max-width: 30%; /* Adjust the size of images */
+    margin: 10px; /* Adjust space around images */
+}
+
+.video-gallery video {
+    max-width: 45%; /* Adjust the size of videos */
+    margin: 10px; /* Adjust space around videos */
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 15px; /* Adjust spacing between form elements */
+    max-width: 400px; /* Change maximum width for the form */
+    margin: auto; /* Center the form on the page */
+}
+
+form input, form textarea, form button {
+    padding: 10px; /* Adjust padding for all form fields */
+    font-size: 16px; /* Change font size for input fields */
+}
+
+form button {
+    background-color: darkblue; /* Change button background color */
+    color: white; /* Change button text color */
+    border: none; /* Remove border around button */
+    cursor: pointer; /* Change cursor style on hover */
+}
+
+form button:hover {
+    background-color: navy; /* Change button hover background color */
+}
